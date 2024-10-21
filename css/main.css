@@ -1,28 +1,30 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 0.95em;
+    background-color: #211f1f;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1em;
+    color:#dac7b7;
     line-height: 1.5em;
 }
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: #f5a9b8;
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: #f5a9b8;
     line-height: 2.5em;
+    color: #211f1f;
 }
 
 main.wrapper {
-    background-color: white;
+    background-color: #211f1f;
     overflow: auto;
 }
 
@@ -31,19 +33,19 @@ p {
 }
 
 h2,h3 {
-    font-weight: normal;
+    font-weight: bold;
     margin-left: 1em;
     line-height: 1em;
 }
 
 a {
-    color:darkcyan;
+    color:#5BCEFA;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #5BCEFA;
     text-decoration: none;
 }
 
