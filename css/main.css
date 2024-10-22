@@ -1,10 +1,10 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Single+Day&display=swap');
 
 html {
     background-color: #211f1f;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Single Day', serif;
     font-size: 1em;
     color:#dac7b7;
     line-height: 1.5em;
@@ -16,6 +16,7 @@ html {
 }
 
 h1 {
+    font-family: 'Rubik Beastly', system-ui;
     font-weight: normal;
     margin: auto;
     background: #f5a9b8;
