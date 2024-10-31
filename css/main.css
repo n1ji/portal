@@ -1,52 +1,55 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bungee+Hairline&family=Oxanium:wght@200..800&display=swap');
 
 html {
-    background-color: #272727;
-    font-family: 'Single Day', serif;
-    font-size: 1em;
-    color:#dac7b7;
+    background-color: #170312;
+    font-family: 'Oxanium', serif;
+    font-size: 0.96em;
+    color:#E7DFC6;
     line-height: 1.5em;
 }
 
 ::selection {
-    color: #000; 
-    background: #f5a9b8;
+    color: #E7DFC6; 
+    background: #AD343E;
 }
 
 h1 {
-    font-family: 'Rubik Beastly', system-ui;
-    font-weight: normal;
+    font-family: 'Bagel Fat One', system-ui;
+    font-weight: 400;
+    font-size: 2.7em;
     margin: auto;
-    background: #f5a9b8;
-    line-height: 2.5em;
-    color: #211f1f;
+    background: #AD343E;
+    line-height: 2.2em;
+    color: #170312;
+    text-shadow: 2px 2px 3px #211f1f80;
 }
 
 main.wrapper {
-    background-color: #211f1f;
+    background-color: #1b1518;
     overflow: auto;
 }
 
 p {
-    margin: 1em; /* Top Right Bottom Left (TRBL) */
+    margin: 1em;
 }
 
 h2,h3 {
     font-weight: bold;
     margin-left: 1em;
     line-height: 1em;
+    font-size: 1.4em;
 }
 
 a {
-    color:#5BCEFA;
+    color:#AD343E;
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: #5BCEFA;
+    color: #E7DFC6;
+    background-color: #AD343E;
     text-decoration: none;
 }
 
@@ -71,9 +74,11 @@ footer {
     }
     
     picture.profile img {
-        width: 50%;
+        width: 40%;
         float: left;
-        margin-right: 2em;
+        margin-top: 1em;
+        margin-right: 1.6em;
+        margin-left: 1em;
     }
     
 }
