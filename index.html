@@ -12,6 +12,7 @@
  <body>
     <header>
         <h1>Myra's Clinic</h1>
+        
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
             <a href="https://n1ji.github.io/github-page/" target="_blank">The Clinic (First GitHub Page)</a>
@@ -30,7 +31,8 @@
             <source media="(min-width: 1200px)" srcset="images/ashePark.jpg">
             <source media="(min-width: 501px)" srcset="images/asheCandid.jpg">
             <img src="images/asheUnder.jpg" alt="ashe">
-        </picture>   
+        </picture> 
+          
         <h2 class="subheader">About Me</h2>
         
         <p class="bio">Hi I'm Myra Rudy! (Pronouced /ˈmɪrə/ or meer-uh) I am a student in the <a href="https://www.yearup.org/" target="_blank">Year Up</a> program taking courses through Seattle Central College.</p>
@@ -70,29 +72,10 @@
         </p>
     </footer>
 
+    <script src="main.js"></script>
+
   </main>
 
-  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
-    <script>
-    //https://tinyurl.com/dynamic-html-css-checkers
-    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
-    
-    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href); 
-     
-     //set current year in span with id of this-year
-     let d = new Date(); let thisYear = d.getFullYear();
-     document.getElementById("this-year").innerHTML = thisYear;
-    
-    //manages mobile nav 
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }   
- </script>
      
  </body>
 </html>
