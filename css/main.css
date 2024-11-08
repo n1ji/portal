@@ -80,17 +80,6 @@ footer {
     font-size: 0.8em;
 }
 
-div.games {
-    display: none;
-    justify-content: space-evenly;
-    
-}
-
-div.gameButton {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 /* Responsive rules */
 
 /* DESKTOP */

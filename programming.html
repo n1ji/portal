@@ -6,32 +6,49 @@
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/dNav.css">
     <link rel="stylesheet" href="css/forms.css">
-    <link rel="script" href="main.js">
+    <link rel="stylesheet" href="css/programming.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  </head>
  <body>
     <header>
         <h1>Myra's Clinic</h1>
-        
-        <nav class="topnav" id="myTopnav">
+
+        <div class="navbar">
             <a href="index.html" class="active">Home</a>
-            <a href="https://n1ji.github.io/github-page/" target="_blank">The Clinic (First GitHub Page)</a>
-            <a href="https://n1ji.github.io/html-elements/" target="_blank">HTML Elements</a>
-            <a href="https://n1ji.github.io/stylin-with-css/" target="_blank">Stylin With CSS</a>
-            <a href="https://n1ji.github.io/selectors/" target="_blank">CSS Selectors</a>
-            <a href="https://n1ji.github.io/css-positioning/" target="_blank">CSS Positioning</a>
+            <div class="dropdown">
+                <button class="dropbtn">IT116 
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="https://n1ji.github.io/github-page/" target="_blank">The Clinic (First GitHub Page)</a>
+                <a href="https://n1ji.github.io/html-elements/" target="_blank">HTML Elements</a>
+                <a href="https://n1ji.github.io/stylin-with-css/" target="_blank">Stylin With CSS</a>
+                <a href="https://n1ji.github.io/selectors/" target="_blank">CSS Selectors</a>
+                <a href="https://n1ji.github.io/css-positioning/" target="_blank">CSS Positioning</a>
+                </div>
+            </div> 
+            <div class="dropdown">
+                <button class="dropbtn">IT115
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="https://n1ji.github.io/forest-racing/" target="_blank">Forest Racing</a>
+                </div>
+            </div> 
             <a href="https://github.com/n1ji/" target="_blank">GitHub</a>
             <a href="https://www.linkedin.com/in/m-rudy" target="_blank">LinkedIn</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        </nav>
+        </div>
+    </nav>
     </header>
      
    <main class="wrapper">
     
         <h2 class="subheader">About This Page</h2>
         
-        <p class="bio">Welcome to my page where I will store all of my programming projects from IT 115</p>
+        <p class="bio" style="text-align: center;">Welcome to my page where I will store all of my programming projects from IT 115</p>
 
         <div class="gameButton"><button onclick="elementToggle()">Forest Racing</button></div>
 
