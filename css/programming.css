@@ -6,13 +6,7 @@ main.wrapper {
     text-align: center;
 }
 
-div.games {
-    display: none;
-    justify-content: space-evenly;
-    
-}
-
-div.gameButton {
+.gameButton {
     display: flex;
     justify-content: space-evenly;
 }
