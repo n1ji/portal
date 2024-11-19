@@ -36,6 +36,7 @@ main.wrapper {
 p.bio {
     margin: 1em;
     font-size: 1em;
+    line-height: 1.5em;
 }
 
 p.origin {
