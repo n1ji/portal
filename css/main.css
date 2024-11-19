@@ -37,12 +37,14 @@ p.bio {
     margin: 1em;
     font-size: 1em;
     line-height: 1.5em;
+    color:#E7DFC6;
 }
 
 p.origin {
     margin: 1em;
     font-size: 1em;
     font-size: .96em;
+    color:#E7DFC6;
 }
 
 h2 {
