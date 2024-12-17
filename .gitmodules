@@ -1,0 +1,3 @@
+[submodule "creatures"]
+	path = creatures
+	url = https://github.com/n1ji/creatures.git
