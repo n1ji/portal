@@ -25,3 +25,6 @@
 [submodule "form-processing"]
 	path = form-processing
 	url = https://github.com/n1ji/form-processing.git
+[submodule "discord-bot"]
+	path = discord-bot
+	url = https://github.com/n1ji/discord-bot.git
