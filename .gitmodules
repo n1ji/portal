@@ -1,3 +1,18 @@
 [submodule "creatures"]
 	path = creatures
 	url = https://github.com/n1ji/creatures.git
+[submodule "github-page"]
+	path = github-page
+	url = https://github.com/n1ji/github-page.git
+[submodule "html-elements"]
+	path = html-elements
+	url = https://github.com/n1ji/html-elements.git
+[submodule "stylin-with-css"]
+	path = stylin-with-css
+	url = https://github.com/n1ji/stylin-with-css.git
+[submodule "selectors"]
+	path = selectors
+	url = https://github.com/n1ji/selectors.git
+[submodule "positioning"]
+	path = positioning
+	url = https://github.com/n1ji/css-positioning.git
