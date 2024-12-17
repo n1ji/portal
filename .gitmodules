@@ -16,3 +16,12 @@
 [submodule "positioning"]
 	path = positioning
 	url = https://github.com/n1ji/css-positioning.git
+[submodule "time-of-day"]
+	path = time-of-day
+	url = https://github.com/n1ji/time-of-day.git
+[submodule "daily-grind"]
+	path = daily-grind
+	url = https://github.com/n1ji/daily-grind.git
+[submodule "form-processing"]
+	path = form-processing
+	url = https://github.com/n1ji/form-processing.git
